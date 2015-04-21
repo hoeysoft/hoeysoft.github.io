@@ -1,0 +1,12 @@
+# This is not complete.
+# Keep chaning with understanding 'jekyll'
+
+highlighter: pygments
+timezone: Asia/Seoul
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "default"
