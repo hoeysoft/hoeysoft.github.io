@@ -3,13 +3,24 @@
 <!--------------------------------------------------------------------!>
 <head>
     <title>{{ page.title }}</title>
-
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+    <link href="/css/default.css"rel="stylesheet" type="text/css" />
 </head>
 <!--------------------------------------------------------------------!>
 <body>
-    {{ content }}
+    <div id="menu">
+        <span id="site-id">
+            <a href="/">hoeysoft</a>
+        </span>
+        <span id="about">
+            <a href="/about.html">about</a>
+        </span>
+    </div>
+
+    <div id="content">
+        {{ content }}
+    </div>
 </body>
 <!--------------------------------------------------------------------!>
 </html>

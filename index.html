@@ -1,12 +1,12 @@
 ---
-title: hoeysoft
+layout: default
 ---
-<div id="home">
-    <ul class="posts">
+<div id="posts">
+    <ul>
         {% for post in site.posts %}
         <li>
-            <span>{{ post.date | date_to_string }}</span>:
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+            <span class="date-indicator">{{ post.date | date_to_string }}</span>
         </li>
         {% endfor %}
     </ul>
