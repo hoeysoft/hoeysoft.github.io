@@ -33,22 +33,19 @@ p {
 }
 
 a {
-    color: gray;
+    color: black;
     text-decoration: none;
 }
+
+a:hover {
+    color: gray;
+}
+
 
 /*---------------------------------------------------*/
 
 #menu {
     margin: 64px auto;
-}
-
-#menu a {
-    color: black;
-}
-
-#menu a:hover {
-    color: gray;
 }
 
 #site-id {
