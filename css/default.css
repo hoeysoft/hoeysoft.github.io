@@ -34,6 +34,7 @@ p {
 
 a {
     color: black;
+	font-weight: bold;
     text-decoration: none;
 }
 
@@ -48,11 +49,7 @@ a:hover {
     margin: 64px auto;
 }
 
-#site-id {
-    font-weight: bold;
-}
-
-#about *{
+#about {
     font-size: 0.421875em; /* (0.75)^3 */
 }
 
@@ -67,7 +64,7 @@ a:hover {
     list-style-type: none;
 }
 
-.post-title {
+#posts .post-title {
     width: 480px;
     display: inline-block;
 }
