@@ -20,6 +20,7 @@ body {
      * Other elements are relative to this size.
      * Sizes are getting smaller with 75% by importance.
      */
+    /*font-size: 64px;*/
     font-size: 64px;
 }
 
@@ -28,13 +29,14 @@ h1 {
     margin: 36px auto;
 }
 
-p {
-    font-size: 0.421875em; /* (0.75)^3 */
-}
-
 a {
     color: gray;
     text-decoration: none;
+}
+
+p, .highlight {
+    font-size: 0.421875em; /* (0.75)^3 */
+    margin: 36px 27px;
 }
 
 /*---------------------------------------------------*/
