@@ -20,23 +20,27 @@ body {
      * Other elements are relative to this size.
      * Sizes are getting smaller with 75% by importance.
      */
-    /*font-size: 64px;*/
     font-size: 64px;
 }
 
 h1 {
+    margin: 0 48px;
     font-size: 0.75em;
-    margin: 36px auto;
 }
 
 a {
-    color: gray;
+    color: black;
+	font-weight: bold;
     text-decoration: none;
 }
 
+a:hover {
+    color: gray;
+}
+
 p, .highlight {
+    margin: 36px 36px;
     font-size: 0.421875em; /* (0.75)^3 */
-    margin: 36px 27px;
 }
 
 /*---------------------------------------------------*/
@@ -45,25 +49,14 @@ p, .highlight {
     margin: 64px auto;
 }
 
-#menu a {
-    color: black;
-}
-
-#menu a:hover {
-    color: gray;
-}
-
-#site-id {
-    font-weight: bold;
-}
-
-#about *{
+#about {
     font-size: 0.421875em; /* (0.75)^3 */
 }
 
 /*---------------------------------------------------*/
 
 #posts {
+    margin: 36px 48px;
     font-size: 0.75em;
 }
 
@@ -72,7 +65,7 @@ p, .highlight {
     list-style-type: none;
 }
 
-.post-title {
+#posts .post-title {
     width: 480px;
     display: inline-block;
 }
