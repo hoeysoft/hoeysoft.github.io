@@ -9,7 +9,7 @@
 </head>
 <!--------------------------------------------------------------------!>
 <body>
-    <div id="menu">
+    <div class="menu">
         <span id="site-id">
             <a href="/">hoeysoft</a>
         </span>
@@ -21,6 +21,12 @@
     <div id="content">
         {{ content }}
     </div>
+
+    {% if page.id %}
+    <div id="tail">
+        <a href="/">back</a>
+    </div>
+    {% endif %}
 </body>
 <!--------------------------------------------------------------------!>
 </html>

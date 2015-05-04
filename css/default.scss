@@ -1,10 +1,10 @@
-/*
- * Styles for 'default' layout
- */
-
 /*---------------------------------------------------*/
 
 @import 'values';
+
+/*---------------------------------------------------*/
+// common styles
+/*---------------------------------------------------*/
 
 * {
     margin : 0;
@@ -17,64 +17,88 @@ body {
 
     /* http://google.com/fonts: Open Sans */
     font-family: 'Open Sans', sans-serif;
-    font-size: $F0;
-}
-
-h1 {
-    // margin: 0 $M1;
-    font-size: $F2;
 }
 
 a {
-    //color: black;
-    color: $LINK_COLOR;
-	font-weight: bold;
+	font-weight    : bold;
     text-decoration: none;
 
-    &:hover {
-        color: $HOVR_COLOR;
-    }
+    color          : $LINKc;
+    &:hover { color: $HOVERc; }
 }
 
-p, .highlight {
-    font-size: $F3;
-}
 
 /*---------------------------------------------------*/
+// layout styles
+/*---------------------------------------------------*/
 
-#menu {
-    // margin: 64px auto;
+.menu {
+    margin: $M0 auto;
+
+    // <a> for menu items treated specifically.
     a {
         color: black;
         &:hover { color: gray; }
     }
+
+    #site-id { font-size: $F0; }
+    #about   { font-size: $F4; }
 }
 
-#about {
-    font-size: $F3;
+#content {
+    padding      : $P2;
+}
+
+#tail {
+    float     : right;
+    margin    : $M0;
+    padding   : $P5;
+    font-size : $F5;
 }
 
 /*---------------------------------------------------*/
+// index.html styles
+/*---------------------------------------------------*/
 
 #posts {
-    // margin: 36px 48px;
-    font-size: $F2;
+    display: table;
 
-    ul {
-        list-style-type: none;
-    }
+    li { padding-bottom : $P3; }
+    ul { list-style-type: none; }
 
     .post-title {
-        width: 480px;
-        display: inline-block;
+        width         : $WIDTH*0.95*0.75;
+        display       : table-cell;
+        vertical-align: middle;
+
+        font-size: $F3;
     }
 
     .date-indicator {
-        width: 270px;
-        display: inline-block;
+        display       : table-cell;
+        vertical-align: middle;
 
-        text-align: right;
-        font-size: 0.75em;
+        font-size: $F4;
     }
 }
 
+
+/*---------------------------------------------------*/
+// contents styles
+/*---------------------------------------------------*/
+
+h1 {
+    padding-bottom: $P2;
+    font-size     : $F2;
+}
+
+p {
+    padding  : $P4;
+    font-size: $F4;
+}
+
+// code snippets
+.highlight {
+    padding  : $P5;
+    font-size: $F5;
+}

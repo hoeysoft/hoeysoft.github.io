@@ -1,10 +1,8 @@
-/*
- * Styles for 'default' layout
- */
 /*---------------------------------------------------*/
-/*
- * Define commonly used sizes
- */
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
 * {
   margin: 0;
   padding: 0; }
@@ -13,43 +11,67 @@ body {
   width: 960px;
   margin: 0 auto;
   /* http://google.com/fonts: Open Sans */
-  font-family: 'Open Sans', sans-serif;
-  font-size: 64px; }
-
-h1 {
-  font-size: 36px; }
+  font-family: 'Open Sans', sans-serif; }
 
 a {
-  color: #001540;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #808080; }
   a:hover {
-    color: #003fbf; }
-
-p, .highlight {
-  font-size: 27px; }
+    color: #bfbfbf; }
 
 /*---------------------------------------------------*/
-#menu a {
-  color: black; }
-  #menu a:hover {
-    color: gray; }
+/*---------------------------------------------------*/
+.menu {
+  margin: 72px auto; }
+  .menu a {
+    color: black; }
+    .menu a:hover {
+      color: gray; }
+  .menu #site-id {
+    font-size: 96px; }
+  .menu #about {
+    font-size: 30.375px; }
 
-#about {
-  font-size: 27px; }
+#content {
+  padding: 22.78125px; }
 
+#tail {
+  float: right;
+  margin: 72px;
+  padding: 54px;
+  font-size: 22.78125px; }
+
+/*---------------------------------------------------*/
 /*---------------------------------------------------*/
 #posts {
-  font-size: 36px; }
+  display: table; }
+  #posts li {
+    padding-bottom: 30.375px; }
   #posts ul {
     list-style-type: none; }
   #posts .post-title {
-    width: 480px;
-    display: inline-block; }
+    width: 684px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40.5px; }
   #posts .date-indicator {
-    width: 270px;
-    display: inline-block;
-    text-align: right;
-    font-size: 0.75em; }
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30.375px; }
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+h1 {
+  padding-bottom: 22.78125px;
+  font-size: 54px; }
+
+p {
+  padding: 40.5px;
+  font-size: 30.375px; }
+
+.highlight {
+  padding: 54px;
+  font-size: 22.78125px; }
 
 /*# sourceMappingURL=default.css.map */

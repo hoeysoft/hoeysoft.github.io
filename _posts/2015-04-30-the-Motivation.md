@@ -3,7 +3,7 @@ title: The Motivation
 ---
 {{ page.title }}
 ================
-This is testing
+This is testing.
 
 {% highlight python %}
 def foo():

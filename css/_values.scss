@@ -1,20 +1,33 @@
-/*
- * Define commonly used sizes
- */
+/*---------------------------------------------------*/
+// Define commonly used sizes
+/*---------------------------------------------------*/
 
 $WIDTH: 960px;
 
-$F0: 64px;
+// font sizes
+$F0: 96px;
 $F1: $F0 * 0.75;
 $F2: $F1 * 0.75;
 $F3: $F2 * 0.75;
 $F4: $F3 * 0.75;
+$F5: $F4 * 0.75;
 
-$M0: 64px;
+// margins
+$M0: 72px;
 $M1: $M0 * 0.75;
 $M2: $M1 * 0.75;
 $M3: $M2 * 0.75;
 $M4: $M3 * 0.75;
+$M5: $M4 * 0.75;
 
-$LINK_COLOR: #001540;
-$HOVR_COLOR: #003fbf;
+// paddings(reversed)
+$P5: 54px;
+$P4: $P5 * 0.75;
+$P3: $P4 * 0.75;
+$P2: $P3 * 0.75;
+$P1: $P2 * 0.75;
+$P0: $P1 * 0.75;
+
+// colors
+$LINKc : #808080;
+$HOVERc: #bfbfbf;
