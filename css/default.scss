@@ -1,0 +1,80 @@
+/*
+ * Styles for 'default' layout
+ */
+
+/*---------------------------------------------------*/
+
+@import 'values';
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    width : $WIDTH;
+    margin: 0 auto;
+
+    /* http://google.com/fonts: Open Sans */
+    font-family: 'Open Sans', sans-serif;
+    font-size: $F0;
+}
+
+h1 {
+    // margin: 0 $M1;
+    font-size: $F2;
+}
+
+a {
+    //color: black;
+    color: $LINK_COLOR;
+	font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: $HOVR_COLOR;
+    }
+}
+
+p, .highlight {
+    font-size: $F3;
+}
+
+/*---------------------------------------------------*/
+
+#menu {
+    // margin: 64px auto;
+    a {
+        color: black;
+        &:hover { color: gray; }
+    }
+}
+
+#about {
+    font-size: $F3;
+}
+
+/*---------------------------------------------------*/
+
+#posts {
+    // margin: 36px 48px;
+    font-size: $F2;
+
+    ul {
+        list-style-type: none;
+    }
+
+    .post-title {
+        width: 480px;
+        display: inline-block;
+    }
+
+    .date-indicator {
+        width: 270px;
+        display: inline-block;
+
+        text-align: right;
+        font-size: 0.75em;
+    }
+}
+

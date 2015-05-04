@@ -1,79 +1,55 @@
 /*
  * Styles for 'default' layout
  */
-
 /*---------------------------------------------------*/
-
+/*
+ * Define commonly used sizes
+ */
 * {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 body {
-    width : 960px;
-    margin: 0 auto;
-
-    /* http://google.com/fonts: Open Sans */
-    font-family: 'Open Sans', sans-serif;
-
-    /* This is Site-ID size.("hoeysoft")
-     * Other elements are relative to this size.
-     * Sizes are getting smaller with 75% by importance.
-     */
-    font-size: 64px;
-}
+  width: 960px;
+  margin: 0 auto;
+  /* http://google.com/fonts: Open Sans */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px; }
 
 h1 {
-    margin: 0 48px;
-    font-size: 0.75em;
-}
+  font-size: 36px; }
 
 a {
-    color: black;
-	font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    color: gray;
-}
+  color: #001540;
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    color: #003fbf; }
 
 p, .highlight {
-    margin: 36px 36px;
-    font-size: 0.421875em; /* (0.75)^3 */
-}
+  font-size: 27px; }
 
 /*---------------------------------------------------*/
-
-#menu {
-    margin: 64px auto;
-}
+#menu a {
+  color: black; }
+  #menu a:hover {
+    color: gray; }
 
 #about {
-    font-size: 0.421875em; /* (0.75)^3 */
-}
+  font-size: 27px; }
 
 /*---------------------------------------------------*/
-
 #posts {
-    margin: 36px 48px;
-    font-size: 0.75em;
-}
-
-#posts ul
-{
-    list-style-type: none;
-}
-
-#posts .post-title {
+  font-size: 36px; }
+  #posts ul {
+    list-style-type: none; }
+  #posts .post-title {
     width: 480px;
-    display: inline-block;
-}
-
-#posts .date-indicator {
+    display: inline-block; }
+  #posts .date-indicator {
     width: 270px;
     display: inline-block;
-
     text-align: right;
-    font-size: 0.75em;
-}
+    font-size: 0.75em; }
+
+/*# sourceMappingURL=default.css.map */
