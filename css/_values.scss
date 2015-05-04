@@ -20,14 +20,15 @@ $M3: $M2 * 0.75;
 $M4: $M3 * 0.75;
 $M5: $M4 * 0.75;
 
-// paddings(reversed)
-$P5: 54px;
-$P4: $P5 * 0.75;
-$P3: $P4 * 0.75;
-$P2: $P3 * 0.75;
-$P1: $P2 * 0.75;
-$P0: $P1 * 0.75;
+// paddings
+$P0: 54px;
+$P1: $P0 * 0.75;
+$P2: $P1 * 0.75;
+$P3: $P2 * 0.75;
+$P4: $P3 * 0.75;
+$P5: $P4 * 0.75;
 
 // colors
-$LINKc : #808080;
-$HOVERc: #bfbfbf;
+$SITEIDc: #0b486b;
+$LINKc  : #3b8686;
+$HOVERc : #a8dba8;

@@ -36,35 +36,74 @@ a {
     margin: $M0 auto;
 
     // <a> for menu items treated specifically.
-    a {
-        color: black;
-        &:hover { color: gray; }
+
+    #site-id {
+        font-size: $F0;
+
+        a {
+            color: black;
+            &:hover { color: gray; }
+        }
     }
-
-    #site-id { font-size: $F0; }
     #about   { font-size: $F4; }
-}
-
-#content {
-    padding      : $P2;
 }
 
 #tail {
     float     : right;
-    margin    : $M0;
+    margin    : $M0 auto;
     padding   : $P5;
     font-size : $F5;
 }
 
+
 /*---------------------------------------------------*/
-// index.html styles
+// contents styles
+/*---------------------------------------------------*/
+
+#content {
+    padding  : $P2;
+    font-size: $F5;
+
+    h1 {
+        margin-bottom: $M1;
+        font-size: $F2;
+    }
+
+    p {
+        padding: $P4;
+    }
+
+    ul, ol {
+        padding: $P3;
+        list-style-position: inside;
+    }
+
+    li {
+        padding-bottom: $P5;
+        font-weight   : bold;
+    }
+
+    // code snippets
+    .highlight {
+        padding  : $P2;
+        font-size: $F5;
+    }
+}
+
+
+/*---------------------------------------------------*/
+// index.html styles(overrides 'content')
 /*---------------------------------------------------*/
 
 #posts {
     display: table;
 
-    li { padding-bottom : $P3; }
-    ul { list-style-type: none; }
+    ul { 
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li { padding-bottom : $P3;  }
 
     .post-title {
         width         : $WIDTH*0.95*0.75;
@@ -82,23 +121,3 @@ a {
     }
 }
 
-
-/*---------------------------------------------------*/
-// contents styles
-/*---------------------------------------------------*/
-
-h1 {
-    padding-bottom: $P2;
-    font-size     : $F2;
-}
-
-p {
-    padding  : $P4;
-    font-size: $F4;
-}
-
-// code snippets
-.highlight {
-    padding  : $P5;
-    font-size: $F5;
-}

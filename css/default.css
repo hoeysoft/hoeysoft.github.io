@@ -16,40 +16,58 @@ body {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #808080; }
+  color: #3b8686; }
   a:hover {
-    color: #bfbfbf; }
+    color: #a8dba8; }
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
 .menu {
   margin: 72px auto; }
-  .menu a {
-    color: black; }
-    .menu a:hover {
-      color: gray; }
   .menu #site-id {
     font-size: 96px; }
+    .menu #site-id a {
+      color: black; }
+      .menu #site-id a:hover {
+        color: gray; }
   .menu #about {
     font-size: 30.375px; }
 
-#content {
-  padding: 22.78125px; }
-
 #tail {
   float: right;
-  margin: 72px;
-  padding: 54px;
+  margin: 72px auto;
+  padding: 12.81445px;
   font-size: 22.78125px; }
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+#content {
+  padding: 30.375px;
+  font-size: 22.78125px; }
+  #content h1 {
+    margin-bottom: 54px;
+    font-size: 54px; }
+  #content p {
+    padding: 17.08594px; }
+  #content ul, #content ol {
+    padding: 22.78125px;
+    list-style-position: inside; }
+  #content li {
+    padding-bottom: 12.81445px;
+    font-weight: bold; }
+  #content .highlight {
+    padding: 30.375px;
+    font-size: 22.78125px; }
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
 #posts {
   display: table; }
-  #posts li {
-    padding-bottom: 30.375px; }
   #posts ul {
+    padding: 0;
     list-style-type: none; }
+  #posts li {
+    padding-bottom: 22.78125px; }
   #posts .post-title {
     width: 684px;
     display: table-cell;
@@ -59,19 +77,5 @@ a {
     display: table-cell;
     vertical-align: middle;
     font-size: 30.375px; }
-
-/*---------------------------------------------------*/
-/*---------------------------------------------------*/
-h1 {
-  padding-bottom: 22.78125px;
-  font-size: 54px; }
-
-p {
-  padding: 40.5px;
-  font-size: 30.375px; }
-
-.highlight {
-  padding: 54px;
-  font-size: 22.78125px; }
 
 /*# sourceMappingURL=default.css.map */
