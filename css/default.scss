@@ -11,6 +11,8 @@
     padding: 0;
 }
 
+// prevents font boosting for mobile devices
+html * { max-height:1000000px; }
 
 body {
     width : $WIDTH;

@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0; }
 
+html * {
+  max-height: 1000000px; }
+
 body {
   width: 960px;
   margin: 0 auto;
