@@ -61,21 +61,12 @@ a {
 
 /*---------------------------------------------------*/
 /*---------------------------------------------------*/
-#posts {
-  display: table; }
-  #posts ul {
-    padding: 0;
-    list-style-type: none; }
-  #posts li {
-    padding-bottom: 22.78125px; }
-  #posts .post-title {
-    width: 684px;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 40.5px; }
-  #posts .date-indicator {
-    display: table-cell;
-    vertical-align: middle;
+#posts .post-row {
+  padding-bottom: 30.375px;
+  font-weight: bold; }
+  #posts .post-row .date-indicator {
     font-size: 30.375px; }
+  #posts .post-row .post-title {
+    font-size: 40.5px; }
 
 /*# sourceMappingURL=default.css.map */

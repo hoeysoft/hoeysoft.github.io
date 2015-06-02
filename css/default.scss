@@ -96,28 +96,18 @@ a {
 /*---------------------------------------------------*/
 
 #posts {
-    display: table;
+    .post-row {
+        padding-bottom: $P2;
+        font-weight   : bold;
 
-    ul { 
-        padding: 0;
-        list-style-type: none;
+        .date-indicator {
+            font-size: $F4;
+        }
+
+        .post-title {
+            font-size: $F3;
+        }
     }
 
-    li { padding-bottom : $P3;  }
-
-    .post-title {
-        width         : $WIDTH*0.95*0.75;
-        display       : table-cell;
-        vertical-align: middle;
-
-        font-size: $F3;
-    }
-
-    .date-indicator {
-        display       : table-cell;
-        vertical-align: middle;
-
-        font-size: $F4;
-    }
 }
 

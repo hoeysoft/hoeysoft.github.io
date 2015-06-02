@@ -2,12 +2,10 @@
 layout: default
 ---
 <div id="posts">
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-            <span class="date-indicator">{{ post.date | date_to_string }}</span>
-        </li>
-        {% endfor %}
-    </ul>
+    {% for post in site.posts %}
+    <div class="post-row">
+        <div><span class="date-indicator">{{ post.date | date_to_string }}</span></div>
+        <div><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></div>
+    </div>
+    {% endfor %}
 </div>
