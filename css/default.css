@@ -7,8 +7,11 @@
   margin: 0;
   padding: 0; }
 
+html {
+  overflow-y: scroll; }
+
 html * {
-  max-height: 1000000px; }
+  max-height: 999999px; }
 
 body {
   width: 960px;

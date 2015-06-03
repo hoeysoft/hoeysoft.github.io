@@ -11,8 +11,15 @@
     padding: 0;
 }
 
+// show scrollbar always
+html {
+    overflow-y: scroll; 
+}
+
 // prevents font boosting for mobile devices
-html * { max-height:1000000px; }
+html * {
+    max-height: 999999px;
+}
 
 body {
     width : $WIDTH;
