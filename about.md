@@ -5,8 +5,8 @@ Yeongho Kim
 ===========
 
 ## Interested in:
-- AI
-- DSL
+- Artificial Intelligence
+- Domain Modeling & DSL
 - Polyglot Programming
 - Tools for productivity
 - Unit Testing
