@@ -1,5 +1,5 @@
 ---
-title: Blog Bootstrapping
+title: Motivation of This Blog
 ---
 {{ page.title }}
 ================
