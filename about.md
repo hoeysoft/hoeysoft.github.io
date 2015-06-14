@@ -7,8 +7,9 @@ Yeongho Kim
 ## Interested in:
 - AI
 - DSL
-- Unit Testing
+- Polyglot Programming
 - Tools for productivity
+- Unit Testing
 
 ## Links
 - <http://wiki.hoeysoft.com>
