@@ -6,6 +6,29 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
     <link href="/css/default.css"rel="stylesheet" type="text/css" />
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+
+// ---------------------------------------------------------------------
+// Inline scripts
+// ---------------------------------------------------------------------
+$(document).ready(function() {
+    // Open external links in a new window.
+    $('a').each(function() {
+        console.log('hoey')
+        var a = new RegExp('/' + window.location.host + '/');
+        if(!a.test(this.href)) {
+            $(this).click(function(event) {
+                event.preventDefault();
+                event.stopPropagation();
+                window.open(this.href, '_blank');
+            });
+        }
+    });
+})
+// ---------------------------------------------------------------------
+
+    </script>
 </head>
 <!--------------------------------------------------------------------!>
 <body>
