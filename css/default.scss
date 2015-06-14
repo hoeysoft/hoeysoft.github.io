@@ -82,8 +82,13 @@ a {
         font-size: $F2;
     }
 
+    h2 {
+        margin   : $M2 0 $M6 0;
+        font-size: $F4;
+    }
+
     p {
-        padding: $P4;
+        padding: $P6;
     }
 
     ul, ol {
@@ -91,9 +96,10 @@ a {
         list-style-position: inside;
     }
 
-    li {
-        padding-bottom: $P5;
+    li, blockquote {
+        padding-bottom: $P6;
         font-weight   : bold;
+        font-size     : $F6
     }
 
     // code snippets
