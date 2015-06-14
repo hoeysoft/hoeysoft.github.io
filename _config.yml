@@ -1,5 +1,7 @@
 # This is not complete.
 # Keep chaning with understanding 'jekyll'
+exclude:
+    [Gemfile, Gemfile.lock, Guardfile]
 
 highlighter: pygments
 timezone: Asia/Seoul
