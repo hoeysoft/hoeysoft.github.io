@@ -1,7 +1,7 @@
 ---
 title: >
     Review of <br>
-    The ThoughtWorks Anthology<br>
+    The ThoughtWorks Anthology
 ---
 #{{ page.title }}
 
