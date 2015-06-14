@@ -12,6 +12,6 @@ Yeongho Kim
 - Unit Testing
 
 ## Links
-- <http://wiki.hoeysoft.com>
 - <http://github.com/hoeysoft>  
+- <http://wiki.hoeysoft.com>
 - <nznial@gmail.com>
