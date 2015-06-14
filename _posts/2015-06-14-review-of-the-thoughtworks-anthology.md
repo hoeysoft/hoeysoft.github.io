@@ -1,15 +1,19 @@
 ---
-title: Review - The ThoughtWorks Anthology
+title: >
+    Review of <br>
+    The ThoughtWorks Anthology<br>
 ---
-{{ page.title }}
-================
+#{{ page.title }}
+
 Currently, I'm reading this now.  
 As the book's title says, This book is a collection of anthologies.  
 I've read the most intriging one first, and I'm gonna summarize it now.  
 
 I will append summaries for other chapters in the future.
   
+
 ## Chapter 6: Object Calisthenics
+
 The author provides **9 strict rules**:  
 
 1. Use only one level of indentation per method.

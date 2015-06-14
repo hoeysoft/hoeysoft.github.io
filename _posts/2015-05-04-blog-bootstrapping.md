@@ -1,5 +1,5 @@
 ---
-title: Bootstrapping of This Blog
+title: Blog Bootstrapping
 ---
 {{ page.title }}
 ================
