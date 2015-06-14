@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+Yeongho Kim
+===========
+
 ## Interested in:
 - AI
 - DSL
