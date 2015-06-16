@@ -9,7 +9,7 @@ Yeongho Kim
 - Domain Modeling & DSL
 - Polyglot Programming
 - Tools for productivity
-- Unit Testing
+- Unit Testing, TDD
 
 ## Links
 - <http://github.com/hoeysoft>  
