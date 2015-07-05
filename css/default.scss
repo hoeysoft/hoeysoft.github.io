@@ -87,6 +87,11 @@ a {
         font-size: $F4;
     }
 
+    h3 {
+        margin   : $M3 0 $M6 0;
+        font-size: $F5;
+    }
+
     p {
         padding: $P6;
     }
@@ -104,8 +109,8 @@ a {
 
     // code snippets
     .highlight {
-        padding  : $P2;
-        font-size: $F5;
+        padding  : $P4 $P4 $P1 $P4;
+        font-size: $F6;
     }
 }
 
